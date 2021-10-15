@@ -1,0 +1,35 @@
+.checkout{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.check_pro{
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+    height:150px;
+    margin:10px;
+}
+.img{
+    display: flex;
+    flex: 30;
+}
+.name_button{
+    display: flex;
+    flex-direction: column;
+    flex: 70;
+}
+.subtotal{
+    background-color:hsl(0deg 11% 91%);
+    box-shadow: 5px 10px #bbb5b5;
+    padding: 24px;
+    height:150px;
+    justify-items: center;
+    margin:50px;
+
+}
+.che_button{
+    margin-top: 12px;
+    border-radius: 100px;
+}
